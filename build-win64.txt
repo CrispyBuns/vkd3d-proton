@@ -1,9 +1,9 @@
 [binaries]
-c = 'x86_64-w64-mingw32-gcc'
-cpp = 'x86_64-w64-mingw32-g++'
-ar = 'x86_64-w64-mingw32-ar'
-strip = 'x86_64-w64-mingw32-strip'
-widl-mingw-tools-fallback = 'x86_64-w64-mingw32-widl'
+c = 'gcc'
+cpp = 'g++'
+ar = 'ar'
+strip = 'strip'
+widl-mingw-tools-fallback = 'widl'
 
 [properties]
 needs_exe_wrapper = true
